@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  
+  <h2>Credit Card Approval Prediction</h2>
+  
+  <form method="POST" action="/">
+    Birthday:<br>
+    <input type="date" name="birthday">
+    <br><br>
+
+    Gender:<br>	
+    <select name="gender">
+    <option value="Female">Female</option>
+    <option value="Male">Male</option>
+    </select>
+    <br><br>
+ 
+    Own Car:<br>
+    <select name="own_car">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+    </select>
+    <br><br>
+
+   Own Realty:<br>
+    <select name="own_realty">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+    </select>
+    <br><br>
+
+  <form method="POST" action="/">
+    Total Income (USD/year):<br>
+    <input type="number" name="income" value=50000>
+    <br><br>
+
+   Type of Income:<br>
+    <select name="incometp">
+    <option value="Working">Working</option>
+    <option value="Commercial associate">Commercial associate</option>
+    <option value="Pensioner">Pensioner</option>
+    <option value="State servant">State servant</option>
+    <option value="Student">Student</option>
+    </select>
+    <br><br>
+
+   Type of Education:<br>
+    <select name="edutp">
+    <option value="Higher education">Higher education</option>
+    <option value="Secondary / secondary special">Secondary</option>
+    <option value="Incomplete higher">Higher education_Not completed</option>
+    <option value="Lower secondary">Lower secondary</option>
+    <option value="Academic degree">Academic degree</option>
+    </select>
+    <br><br>
+
+   Marriage Status:<br>
+    <select name="famtp">
+    <option value="Civil marriage">Civil marriage</option>
+    <option value="Married">Married</option>
+    <option value="Single / not married">Single</option>
+    <option value="Separated">Separated</option>
+    <option value="Widow">Widow</option>
+    </select>
+    <br><br>
+
+   Housing Type:<br>
+    <select name="housetp">
+    <option value="Rented apartment">Rented apartment</option>
+    <option value="House / apartment">House</option>
+    <option value="Municipal apartment">Municipal apartment</option>
+    <option value="With parents">With parents</option>
+    <option value="Co-op apartment">Co-op apartment</option>
+    <option value="Office apartment">Office apartment</option>
+    </select>
+    <br><br>
+
+   Occupation Type:<br>
+    <select name="occupationtp">
+    <option value="Security staff">Security staff</option>
+    <option value="Sales staff">Sales staff</option>
+    <option value="Accountants">Accountants</option>
+    <option value="Laborers">Laborers</option>
+    <option value="Managers">Managers</option>
+    <option value="Drivers">Drivers</option>
+    <option value="Core staff">Core staff</option>
+    <option value="High skill tech staff">High skill tech staff</option>
+    <option value="Cleaning staff">Cleaning staff</option>
+    <option value="Private service staff">Private service staff</option>
+    <option value="Cooking staff">Cooking staff</option>
+    <option value="Low-skill Laborers">Low-skill Laborers</option>
+    <option value="Medicine staff">Medicine staff</option>
+    <option value="Secretaries">Secretaries</option>
+    <option value="Waiters/barmen staff">Waiters/barmen staff</option>
+    <option value="HR staff">HR staff</option>
+    <option value="Realty agents">Realty agents</option>
+    <option value="IT staff">IT staff</option>
+    <option value="Others">Others</option>
+    </select>
+    <br><br>
+
+  <form method="POST" action="/">
+    Date of Starting Your Current Occupation:<br>
+    <input type="date" name="DAYS_EMPLOYED">
+    <br><br>
+
+   Do you have a phone?:<br>
+    <select name="phone">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+    </select>
+    <br><br>
+
+   Do you have a work phone?:<br>
+    <select name="workphone">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+    </select>
+    <br><br>
+
+   Do you have an email?:<br>
+    <select name="email">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+    </select>
+    <br><br>
+
+    Number of family numbers:<br>
+    <input type="number" name="famnum" value=4>
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+    = {{ result }}
+
+  </body>
+</html>
